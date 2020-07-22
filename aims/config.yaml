@@ -1,0 +1,8 @@
+# config for project
+mysql:
+  # database path for connection
+  db: "data/aims.db"
+enc:
+  # salt for encryption
+  salt: "the salt-> %^ %$#$%#FDGFFDG$#$%2"
+  password: "some pass"

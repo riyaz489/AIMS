@@ -1,0 +1,12 @@
+[run]
+omit =*/.local/*
+# removing files from local directory
+      */test/*
+# removing test folder
+      */venv/*
+      */create_csv/*
+[report]
+
+exclude_lines =
+    if __name__ == .__main__.:
+    with open("aims/config.yaml", 'r') as ymlfile:
