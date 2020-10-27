@@ -1,6 +1,6 @@
 cffi==1.14.0
 coverage==5.1
-cryptography==2.9.2
+cryptography==3.2
 mock==4.0.2
 prettytable==0.7.2
 pycparser==2.20
